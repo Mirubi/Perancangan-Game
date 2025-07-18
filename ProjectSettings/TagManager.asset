@@ -15,7 +15,7 @@ TagManager:
   - Water
   - UI
   - NPC
-  - 
+  - Glow
   - 
   - Ground
   - Wall
@@ -43,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background 4
+    uniqueID: 148973587
+    locked: 0
+  - name: Background 3
+    uniqueID: 1911498463
     locked: 0
   - name: Background 2
     uniqueID: 3485938791

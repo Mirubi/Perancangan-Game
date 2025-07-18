@@ -8,7 +8,7 @@ public class PlayerCombat : CharacterStats
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public CharacterHealthUI healthUI;
+    public CharacterHealthUI playerhealthUI;
 
     [Header("Attack Stats")]
     private int normalAttackDamage = 1;
@@ -34,9 +34,9 @@ public class PlayerCombat : CharacterStats
     public override void Start()
     {
         base.Start();
-        if (healthUI != null)
+        if (playerhealthUI != null)
         {
-            healthUI.UpdateHealth();
+            playerhealthUI.UpdateHealth();
         }
     }
 
@@ -64,9 +64,9 @@ public class PlayerCombat : CharacterStats
 
         base.TakeDamage(damage);
 
-        if (healthUI != null)
+        if (playerhealthUI != null)
         {
-            healthUI.UpdateHealth();
+            playerhealthUI.UpdateHealth();
         }
 
         if (AudioManager.Instance != null && audioData != null)
