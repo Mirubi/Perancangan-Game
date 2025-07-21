@@ -178,6 +178,24 @@ public class EnemyBehavior : CharacterStats
         Destroy(gameObject, 2f);
     }
 
+    public virtual void TakeDamage(int damage)
+{
+    currentHealth -= damage;
+
+    // Tambahkan ini:
+    if (this.CompareTag("Enemy")) // Pastikan hanya enemy yang memicu hitstop
+    {
+        if (HitStopManager.Instance != null)
+            HitStopManager.Instance.DoHitStop(0.05f); // hitstop 0.05 detik
+    }
+
+    if (currentHealth <= 0)
+    {
+        Die();
+    }
+}
+
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

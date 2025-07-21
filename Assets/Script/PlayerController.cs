@@ -67,12 +67,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (HitStopManager.Instance != null && HitStopManager.Instance.IsHitStop)
+        return;
+
         CheckInput();
         CheckMovementDirection();
         UpdateAnimation();
         CheckIfCanJump();
         CheckIfWallSliding();
         CheckJump();
+        
     }
 
     private void FixedUpdate()
@@ -284,6 +288,8 @@ private void CheckMovementDirection()
 
     private void Flip()
     {
+        if (HitStopManager.Instance != null && HitStopManager.Instance.IsHitStop)
+        return;
         if (!isWallSliding && canFlip)
         {
             facingDirection *= -1;

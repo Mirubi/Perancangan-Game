@@ -8,7 +8,7 @@ public class PlayerCombat : CharacterStats
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public CharacterHealthUI playerhealthUI;
+    public CharacterHealthUI healthUI;
 
     [Header("Attack Stats")]
     private int normalAttackDamage = 1;
@@ -25,6 +25,10 @@ public class PlayerCombat : CharacterStats
     public float invincibilityBlinkDelay = 0.2f;
 
     private AudioData audioData;
+    
+    [SerializeField]
+[Tooltip("Delay sebelum damage diberikan ke musuh setelah serangan (dalam detik)")]
+    private float damageDelay = 0.3f;
 
     void Awake()
     {
@@ -34,9 +38,9 @@ public class PlayerCombat : CharacterStats
     public override void Start()
     {
         base.Start();
-        if (playerhealthUI != null)
+        if (healthUI != null)
         {
-            playerhealthUI.UpdateHealth();
+            healthUI.UpdateHealth();
         }
     }
 
@@ -64,9 +68,9 @@ public class PlayerCombat : CharacterStats
 
         base.TakeDamage(damage);
 
-        if (playerhealthUI != null)
+        if (healthUI != null)
         {
-            playerhealthUI.UpdateHealth();
+            healthUI.UpdateHealth();
         }
 
         if (AudioManager.Instance != null && audioData != null)
@@ -99,6 +103,18 @@ public class PlayerCombat : CharacterStats
         isInvincible = false;
     }
 
+    private IEnumerator DamageEnemyAfterDelay(Collider2D enemy)
+{
+    yield return new WaitForSeconds(damageDelay);
+
+    CharacterStats stats = enemy.GetComponent<CharacterStats>();
+    if (stats != null)
+    {
+        stats.TakeDamage(normalAttackDamage);
+    }
+}
+
+
     void NormalAttack()
     {
         attackComboCounter++;
@@ -116,10 +132,11 @@ public class PlayerCombat : CharacterStats
         }
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        
         foreach (Collider2D enemy in hitEnemies)
-        {
-            enemy.GetComponent<CharacterStats>()?.TakeDamage(normalAttackDamage);
-        }
+{
+    StartCoroutine(DamageEnemyAfterDelay(enemy));
+}
     }
 
     void HoldAttack()

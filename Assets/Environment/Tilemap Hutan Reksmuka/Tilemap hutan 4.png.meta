@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: 273afa2962b36ff4e85cc8cb31572c33
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 347
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap hutan 4_0
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 3112
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e4d5135b5f3dd48ac88ce0ffe05a21
+      internalID: -1774223912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_1
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 3112
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3330c57538a4d44aa641d12cfeb6f0
+      internalID: -1130953289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_2
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 3112
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4e52b05241bd4580bbef1b6fb157b
+      internalID: 821982718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_3
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba189178847502444abf216a35c6e9d1
+      internalID: -1344194752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_4
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f78566ee246f6344a8b56c5dd524774
+      internalID: -597107982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_5
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074b0c5eb15c9fc4183727d89a4c375d
+      internalID: -1131694209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_6
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fc6a7deddbd2a4c9c39b1a6c18f23a
+      internalID: -212717296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_7
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1261366a239c44b86c026425e04c76
+      internalID: 1644359091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_8
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87494a5bd108e6448320cd02a795d25
+      internalID: -1796907217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_9
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65105ac4c9fbe74183b6f6a956bbdd2
+      internalID: 1278540305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_10
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b493b823edf0eb4d869510f0c14b898
+      internalID: -824584590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_11
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 2764
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63c1df77288d8b419f6d7c417509a0b
+      internalID: 321084052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_12
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee5d415dd4fc0443890b0838c2322c8
+      internalID: 1229238717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_13
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3091ebea6a15bf54a976506d83ea796e
+      internalID: 1073268627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_14
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1034a02d4f7660748b0875bc47d89334
+      internalID: -195977331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_15
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987db49258deef342be8ae410a12f1dc
+      internalID: 447428666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_16
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421aa908384d0404f97d8807350d3ea8
+      internalID: 892547255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_17
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c48524dad41544a3f4d94b39580b9
+      internalID: 2052497281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_18
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f720cdfdac0b6343997b15a449c8695
+      internalID: 720242302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_19
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096a38d0ffe9d9b44a3efeb56659676a
+      internalID: 1264484605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_20
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 2416
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6c1d1ae60c3734bb968ccc5a907ac2
+      internalID: -1658383171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_21
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab41c19f6c4c0a4192ff615600bcbcb
+      internalID: -38135226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_22
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422670cece1b134599555774086e40e
+      internalID: -132751726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_23
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5fcd24ec404684b95bfb8702e2efca
+      internalID: 1697414182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_24
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200546294675e204eabc2bc11e4d1605
+      internalID: -257698103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_25
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81e8ef61ee937c4e864ada183045775
+      internalID: -916973824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_26
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bcac6a214700447b525631dbd0581d
+      internalID: -812773937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_27
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d48d9131c06144ab85b04b318e4c47
+      internalID: -685563133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_28
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc7f6451343a0941a13f636526eb3ac
+      internalID: 1574209464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_29
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf803a1df7e31545804de70df230741
+      internalID: -562798615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_30
+      rect:
+        serializedVersion: 2
+        x: 4877
+        y: 2068
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13dcbba1f85e9e42a820f58bb331a45
+      internalID: -337560550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_31
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dde66fb0d30ce4490fbd2e75903e37
+      internalID: -755007075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_32
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95fa255c77e3547a6c0918e9d4a0e2
+      internalID: 1476495898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_33
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bff3bda18fc70c46bdec0d87b53143a
+      internalID: 1769808525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_34
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f7fa6b7be2224cb58f94bfb6b31aa
+      internalID: -1224906323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_35
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5e40cdcfa4eb4187666043386f0cb
+      internalID: 556544120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_36
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e14180f62e4414890a83bf98013431
+      internalID: 1694855859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_37
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2ae54aec57d7841b2d0db3d6666a7b
+      internalID: 450629120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_38
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eb583b2d672b343b654b06c9d507ee
+      internalID: -561441686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_39
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b5725a52bc474b93c3186c3419c09
+      internalID: 1062800496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_40
+      rect:
+        serializedVersion: 2
+        x: 4877
+        y: 1720
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc54d074675df14c9fbd0886578039c
+      internalID: -340380034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_41
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fcc81a4d1596949b4bb14229f65625
+      internalID: 86390919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_42
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759dd578858fe6d4f98d9e6e0b396f23
+      internalID: -317578280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_43
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e76b095307824a9f1034f5a3f09d4
+      internalID: -130700125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_44
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b224b1b89b208e54bb6b8b5fd4b41ef5
+      internalID: 1394953900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_45
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048191a921f427459b64bd3159f4b54
+      internalID: 81155665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_46
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3594e8e59733e41aa9d241cc5f14bc
+      internalID: 1658477479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_47
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59847cebb3541a44697d8313aeec930a
+      internalID: -1565289010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_48
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749fa3b4e26bc7e4dab9a5cc206fd47f
+      internalID: -164622354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_49
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 1372
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882fff90027294f4798f77335d442702
+      internalID: -1760045594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_50
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1024
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6c2ec28d773994ebdec9cf9c8a069b
+      internalID: 1481203299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_51
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1024
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525118a4e4dd7a04291c474a7436c145
+      internalID: 1576491642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_52
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1024
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87d93023844e304a9d67039c48ba9be
+      internalID: -1562616812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 4_53
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 1024
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b726fa53eec764a86e07e237649e49
+      internalID: 883004576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tilemap hutan 4_0: -1774223912
+      Tilemap hutan 4_1: -1130953289
+      Tilemap hutan 4_10: -824584590
+      Tilemap hutan 4_11: 321084052
+      Tilemap hutan 4_12: 1229238717
+      Tilemap hutan 4_13: 1073268627
+      Tilemap hutan 4_14: -195977331
+      Tilemap hutan 4_15: 447428666
+      Tilemap hutan 4_16: 892547255
+      Tilemap hutan 4_17: 2052497281
+      Tilemap hutan 4_18: 720242302
+      Tilemap hutan 4_19: 1264484605
+      Tilemap hutan 4_2: 821982718
+      Tilemap hutan 4_20: -1658383171
+      Tilemap hutan 4_21: -38135226
+      Tilemap hutan 4_22: -132751726
+      Tilemap hutan 4_23: 1697414182
+      Tilemap hutan 4_24: -257698103
+      Tilemap hutan 4_25: -916973824
+      Tilemap hutan 4_26: -812773937
+      Tilemap hutan 4_27: -685563133
+      Tilemap hutan 4_28: 1574209464
+      Tilemap hutan 4_29: -562798615
+      Tilemap hutan 4_3: -1344194752
+      Tilemap hutan 4_30: -337560550
+      Tilemap hutan 4_31: -755007075
+      Tilemap hutan 4_32: 1476495898
+      Tilemap hutan 4_33: 1769808525
+      Tilemap hutan 4_34: -1224906323
+      Tilemap hutan 4_35: 556544120
+      Tilemap hutan 4_36: 1694855859
+      Tilemap hutan 4_37: 450629120
+      Tilemap hutan 4_38: -561441686
+      Tilemap hutan 4_39: 1062800496
+      Tilemap hutan 4_4: -597107982
+      Tilemap hutan 4_40: -340380034
+      Tilemap hutan 4_41: 86390919
+      Tilemap hutan 4_42: -317578280
+      Tilemap hutan 4_43: -130700125
+      Tilemap hutan 4_44: 1394953900
+      Tilemap hutan 4_45: 81155665
+      Tilemap hutan 4_46: 1658477479
+      Tilemap hutan 4_47: -1565289010
+      Tilemap hutan 4_48: -164622354
+      Tilemap hutan 4_49: -1760045594
+      Tilemap hutan 4_5: -1131694209
+      Tilemap hutan 4_50: 1481203299
+      Tilemap hutan 4_51: 1576491642
+      Tilemap hutan 4_52: -1562616812
+      Tilemap hutan 4_53: 883004576
+      Tilemap hutan 4_6: -212717296
+      Tilemap hutan 4_7: 1644359091
+      Tilemap hutan 4_8: -1796907217
+      Tilemap hutan 4_9: 1278540305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

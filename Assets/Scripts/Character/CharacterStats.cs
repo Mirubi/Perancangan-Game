@@ -22,12 +22,17 @@ public class CharacterStats : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        HitStopManager.Instance.DoHitStop(0.1f);
         animator.SetTrigger("Hurt");
 
         if (healthUI != null)
         {
             healthUI.UpdateHealth();
         }
+        
+       if (this.CompareTag("Enemy"))
+{
+}
 
         if (currentHealth <= 0)
         {

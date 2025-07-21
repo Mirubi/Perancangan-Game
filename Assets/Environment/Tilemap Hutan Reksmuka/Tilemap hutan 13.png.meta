@@ -1,0 +1,1163 @@
+fileFormatVersion: 2
+guid: 00fd61f8c199af34f88bd96b70d3754e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 347
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap hutan 13_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4316576b6ecc1964e93dac971f9abe7b
+      internalID: 1675785733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce114af48c7e1634aa79ced166eca8b3
+      internalID: 1478919632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7920ecd0cebb64482acb13fa8d10dc
+      internalID: 1287737290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_3
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52a9a9650b95b408373a98d4459307
+      internalID: 399882844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_4
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d66010db4e35a479102809e6e29f7d
+      internalID: -118416352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_5
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ac78be55a3be642a0e89951b8b91ab
+      internalID: 1563937763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_6
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 3809
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d903ae0b5a12dc4ea04cd60c9012013
+      internalID: 897646315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33323d5c2b55f3141811934d99526374
+      internalID: -2052113799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ef2a0291b91694eb7f6ce44c8627cb
+      internalID: -1999135541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_10
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f96482e340ca4192e2e7cc3cbf246
+      internalID: 1467739090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_11
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1971e2d0d8d3a784c870559854f3fd12
+      internalID: -1435093591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_12
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f76b85349f060b45b60334d74f59d79
+      internalID: -317727600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_13
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6f8f1d4896afe40bd956e1b1f92b82
+      internalID: -1062212075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_14
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eace26dd58bb9104f92d71580c124e56
+      internalID: 626759624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_16
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 3462
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19369b96da3bc9b4da28f94e4bbad3e5
+      internalID: -1404983219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff35c563ebe5449930a7266b9384d0
+      internalID: -2078572767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d778a7b255f364480da41f7da19773
+      internalID: -1579465187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_19
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12fe1c6ab0e1c4a8609fb1c8e70b4b
+      internalID: -1297755126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_20
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80919e9db78e754da0242c54fdf149b
+      internalID: 607919090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_21
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab995f5ee60caa442b78a97f03649224
+      internalID: -1955683978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_22
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1befc222df0a1be4a98a9c6fa8f8d8ce
+      internalID: -80983592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_23
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630798e4e38067046b4bac732fdc47f7
+      internalID: -521532084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_25
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9cc1857101a684f813fc35f21d7460
+      internalID: -639281335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_26
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 3115
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7f384d7406fc45a23a0326453d0de
+      internalID: 1143506247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_28
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9222ac49e1a73de42b2fa73e9193f3d5
+      internalID: -1295006848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_29
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336f7e181b032fb46b8efde163b9d7db
+      internalID: -152779826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_30
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd543669db14e884590fb5cd8d3ccf10
+      internalID: 1272049008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_31
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463c7ef4fd05a334ebb2136f68529a96
+      internalID: -595519557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_32
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0b998adc201fe4ab6f63efacd28ef6
+      internalID: -1238113504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_33
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d68ab4d161674a85f455911e22a6a
+      internalID: -1637812274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_34
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e969564079280d488fa953165c4b804
+      internalID: 425849859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_35
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0778a15f2fb54fab907d5ee087099
+      internalID: 746922035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_36
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 2768
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201cdfeeb3e20d44ca97a2d48681b559
+      internalID: -8507291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_38
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d18612a2869a234aa60a23219d0e55c
+      internalID: 1271959284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_39
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030f984b3a483c44f8fda94c16e906f1
+      internalID: -157025991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_40
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801c185cba604b94d82f1fbc6d7fd565
+      internalID: -488819148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_43
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db31e5f186e2d344a799681caccf076
+      internalID: 1665224841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_44
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60269455cc41c8446a44e5e459421658
+      internalID: 1590487449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_45
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db9ea47c15b50c4aa298df5c5351a57
+      internalID: 84797695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_46
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 2421
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6ce35f500e6f84984bb262a419a5b2
+      internalID: -1684143013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_49
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2074
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8f93ce467ad64e898e8aa0d636a3c
+      internalID: -1930948749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_50
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2074
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7876187ccc7ef4ca5938c46a8680ed
+      internalID: 1286138954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_51
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2074
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6224668788fb5914fa772949e130b7aa
+      internalID: -1261455085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_52
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2074
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f65aea7624cbc40bf1fcefee0719d8
+      internalID: -1809439729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_58
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1727
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eb6e77b3d3ed74d94128ab8a92c3e6
+      internalID: 1599331284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_59
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1727
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b647aabcb691db6469f601146c44cd77
+      internalID: -723923076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap hutan 13_60
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1727
+        width: 347
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18115239933307f4fa220f3f6aee7e81
+      internalID: -276036695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tilemap hutan 13_0: 1675785733
+      Tilemap hutan 13_1: 1478919632
+      Tilemap hutan 13_10: 1467739090
+      Tilemap hutan 13_11: -1435093591
+      Tilemap hutan 13_12: -317727600
+      Tilemap hutan 13_13: -1062212075
+      Tilemap hutan 13_14: 626759624
+      Tilemap hutan 13_15: -1392873221
+      Tilemap hutan 13_16: -1404983219
+      Tilemap hutan 13_17: -2078572767
+      Tilemap hutan 13_18: -1579465187
+      Tilemap hutan 13_19: -1297755126
+      Tilemap hutan 13_2: 1287737290
+      Tilemap hutan 13_20: 607919090
+      Tilemap hutan 13_21: -1955683978
+      Tilemap hutan 13_22: -80983592
+      Tilemap hutan 13_23: -521532084
+      Tilemap hutan 13_24: -1330504839
+      Tilemap hutan 13_25: -639281335
+      Tilemap hutan 13_26: 1143506247
+      Tilemap hutan 13_27: 1116790971
+      Tilemap hutan 13_28: -1295006848
+      Tilemap hutan 13_29: -152779826
+      Tilemap hutan 13_3: 399882844
+      Tilemap hutan 13_30: 1272049008
+      Tilemap hutan 13_31: -595519557
+      Tilemap hutan 13_32: -1238113504
+      Tilemap hutan 13_33: -1637812274
+      Tilemap hutan 13_34: 425849859
+      Tilemap hutan 13_35: 746922035
+      Tilemap hutan 13_36: -8507291
+      Tilemap hutan 13_37: -143865370
+      Tilemap hutan 13_38: 1271959284
+      Tilemap hutan 13_39: -157025991
+      Tilemap hutan 13_4: -118416352
+      Tilemap hutan 13_40: -488819148
+      Tilemap hutan 13_41: -1597815386
+      Tilemap hutan 13_42: -720645221
+      Tilemap hutan 13_43: 1665224841
+      Tilemap hutan 13_44: 1590487449
+      Tilemap hutan 13_45: 84797695
+      Tilemap hutan 13_46: -1684143013
+      Tilemap hutan 13_47: 1316246557
+      Tilemap hutan 13_48: -2049673823
+      Tilemap hutan 13_49: -1930948749
+      Tilemap hutan 13_5: 1563937763
+      Tilemap hutan 13_50: 1286138954
+      Tilemap hutan 13_51: -1261455085
+      Tilemap hutan 13_52: -1809439729
+      Tilemap hutan 13_53: 712033837
+      Tilemap hutan 13_54: 1805261601
+      Tilemap hutan 13_55: 1426592205
+      Tilemap hutan 13_56: -558210235
+      Tilemap hutan 13_57: 1505562220
+      Tilemap hutan 13_58: 1599331284
+      Tilemap hutan 13_59: -723923076
+      Tilemap hutan 13_6: 897646315
+      Tilemap hutan 13_60: -276036695
+      Tilemap hutan 13_61: 1300577849
+      Tilemap hutan 13_7: -2052113799
+      Tilemap hutan 13_8: -1999135541
+      Tilemap hutan 13_9: -833296065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
