@@ -26,7 +26,7 @@ public class MainMenuManager : MonoBehaviour
     }
     void PlayGame()
     {
-        ButtonBehavior.Instance.LoadAsyncScene("Level");
+        ButtonBehavior.Instance.LoadAsyncScene("Level 1");
     }
 
     void Quit()

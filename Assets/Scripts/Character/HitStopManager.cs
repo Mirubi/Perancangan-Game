@@ -1,11 +1,12 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class HitStopManager : MonoBehaviour
 {
     public static HitStopManager Instance;
-
-    public bool IsHitStop { get; private set; } = false;
+    public bool IsHitStop { get; private set; }
 
     private void Awake()
     {

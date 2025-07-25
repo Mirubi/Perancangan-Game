@@ -4,13 +4,10 @@ using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
-
-    public enum SpeakerType { Player, NPC };
-
     [System.Serializable]
     public class DialogData
     {
-        public SpeakerType speakerType;
+        public string speakerID; // ID unik karakter
         [TextArea(4, 6)]
         public string dialog;
         [Header("Opsional Ganti Data Default")]
@@ -18,17 +15,17 @@ public class DialogueManager : MonoBehaviour
         public Sprite overrideIcon;
     }
 
-    [Header("Info Karakter Default")]
-    public string defaultPlayerName = "Yi";
-    public Sprite defaultPlayerIcon;
-    public string defaultNpcName = "White-Haired Girl";
-    public Sprite defaultNpcIcon;
+    [System.Serializable]
+    public class CharacterUI
+    {
+        public string speakerID; // ID unik karakter (contoh: "bima", "arjuna")
+        public GameObject bubbleObject; // Bubble UI dari karakter ini
+        public string defaultName;
+        public Sprite defaultIcon;
+    }
 
-    private List<DialogData> dialogsToPlay;
-
-    [Header("Hubungkan Objek dari Hierarchy")]
-    public GameObject playerBubbleObject;
-    public GameObject npcBubbleObject;
+    [Header("Daftar Karakter dan Bubble-nya")]
+    public List<CharacterUI> characterUIs;
 
     [Header("Pengaturan")]
     public float typingSpeed = 0.04f;
@@ -36,23 +33,48 @@ public class DialogueManager : MonoBehaviour
     [Header("Events")]
     public UnityEvent onDialogueFinish;
 
+    private Dictionary<string, CharacterUI> characterUIDict;
+    private List<DialogData> dialogsToPlay;
     private int currentDialogIndex = 0;
     private bool isDialogueActive = false;
-    private DialogueBubbleUI playerBubbleUI;
-    private DialogueBubbleUI npcBubbleUI;
+
+    // Public property untuk dicek dari luar
+    public bool IsDialogueActive => isDialogueActive;
+
+    private PlayerMovement playerMove;
+    private PlayerCombat playerCombat;
+    private Rigidbody2D playerRb;
+
+
 
     void Start()
     {
-        playerBubbleUI = playerBubbleObject.GetComponent<DialogueBubbleUI>();
-        npcBubbleUI = npcBubbleObject.GetComponent<DialogueBubbleUI>();
-        playerBubbleObject.SetActive(false);
-        npcBubbleObject.SetActive(false);
+        playerMove = GameObject.Find("Player").GetComponent<PlayerMovement>();
+        playerCombat = GameObject.Find("Player").GetComponent <PlayerCombat>();
+        playerRb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+
+
+        // Inisialisasi dictionary karakter
+        characterUIDict = new Dictionary<string, CharacterUI>();
+        foreach (var charUI in characterUIs)
+        {
+            if (!characterUIDict.ContainsKey(charUI.speakerID))
+            {
+                characterUIDict.Add(charUI.speakerID, charUI);
+                charUI.bubbleObject.SetActive(false);
+            }
+            else
+            {
+                Debug.LogWarning($"Duplicate speakerID ditemukan: {charUI.speakerID}");
+            }
+        }
     }
 
     void Update()
     {
         if (!isDialogueActive) return;
-        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Return))
+
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Return))
         {
             AdvanceDialogue();
         }
@@ -66,8 +88,17 @@ public class DialogueManager : MonoBehaviour
         this.dialogsToPlay = newDialogs;
         currentDialogIndex = 0;
         ShowDialogue();
-    }
 
+        //frezze movement and combat
+        if (playerMove != null) playerMove.enabled = false;
+        if (playerCombat != null) playerCombat.enabled = false;
+
+        if (playerRb != null)
+        {
+            playerRb.velocity = Vector2.zero; // stop movement fisik
+        }
+
+    }
 
     private void AdvanceDialogue()
     {
@@ -84,35 +115,41 @@ public class DialogueManager : MonoBehaviour
 
     private void ShowDialogue()
     {
-        DialogData data = dialogsToPlay[currentDialogIndex];
-        string nameToShow;
-        Sprite iconToShow;
-        DialogueBubbleUI bubbleToSetup;
+        // Nonaktifkan semua bubble sebelum tampilkan yang baru
+        foreach (var characterUI in characterUIDict.Values)
+        {
+            characterUI.bubbleObject.SetActive(false);
+        }
 
-        if (data.speakerType == SpeakerType.Player)
+        DialogData data = dialogsToPlay[currentDialogIndex];
+
+        if (characterUIDict.TryGetValue(data.speakerID, out CharacterUI charUI))
         {
-            nameToShow = string.IsNullOrEmpty(data.overrideName) ? defaultPlayerName : data.overrideName;
-            iconToShow = data.overrideIcon == null ? defaultPlayerIcon : data.overrideIcon;
-            bubbleToSetup = playerBubbleUI;
-            playerBubbleObject.SetActive(true);
-            npcBubbleObject.SetActive(false);
+            string nameToShow = string.IsNullOrEmpty(data.overrideName) ? charUI.defaultName : data.overrideName;
+            Sprite iconToShow = data.overrideIcon == null ? charUI.defaultIcon : data.overrideIcon;
+
+            DialogueBubbleUI bubbleUI = charUI.bubbleObject.GetComponent<DialogueBubbleUI>();
+            charUI.bubbleObject.SetActive(true);
+            bubbleUI.Setup(nameToShow, data.dialog, iconToShow, typingSpeed);
         }
-        else // Jika NPC
+        else
         {
-            nameToShow = string.IsNullOrEmpty(data.overrideName) ? defaultNpcName : data.overrideName;
-            iconToShow = data.overrideIcon == null ? defaultNpcIcon : data.overrideIcon;
-            bubbleToSetup = npcBubbleUI;
-            npcBubbleObject.SetActive(true);
-            playerBubbleObject.SetActive(false);
+            Debug.LogWarning($"Speaker ID '{data.speakerID}' tidak ditemukan dalam daftar CharacterUI.");
         }
-        bubbleToSetup.Setup(nameToShow, data.dialog, iconToShow, typingSpeed);
     }
 
     private void EndDialogue()
     {
         isDialogueActive = false;
-        playerBubbleObject.SetActive(false);
-        npcBubbleObject.SetActive(false);
+
+        foreach (var charUI in characterUIDict.Values)
+        {
+            charUI.bubbleObject.SetActive(false);
+        }
+
         onDialogueFinish?.Invoke();
+
+        playerMove.enabled = true;
+        playerCombat.enabled = true;
     }
 }

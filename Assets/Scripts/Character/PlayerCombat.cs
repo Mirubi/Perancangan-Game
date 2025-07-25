@@ -6,13 +6,12 @@ public class PlayerCombat : CharacterStats
 {
     [Header("Player Specific")]
     public Transform attackPoint;
-    public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public CharacterHealthUI healthUI;
 
     [Header("Attack Stats")]
     private int normalAttackDamage = 1;
-    private int holdAttackDamage = 2;
+    private int holdAttackDamage = 3;
     private int attackComboCounter = 0;
 
     [Header("Attack Cooldown")]
@@ -25,10 +24,20 @@ public class PlayerCombat : CharacterStats
     public float invincibilityBlinkDelay = 0.2f;
 
     private AudioData audioData;
-    
-    [SerializeField]
-[Tooltip("Delay sebelum damage diberikan ke musuh setelah serangan (dalam detik)")]
-    private float damageDelay = 0.3f;
+
+    [Header("Damage Delay")]
+    [Tooltip("Delay sebelum damage diberikan ke musuh setelah Normal Attack (detik)")]
+    [SerializeField] private float normalDamageDelay = 0.3f;
+
+    [Tooltip("Delay sebelum damage diberikan ke musuh setelah Hold Attack (detik)")]
+    [SerializeField] private float holdDamageDelay = 0.5f;
+
+    [Header("Attack Range")]
+    [Tooltip("Jarak serangan untuk Normal Attack")]
+    [SerializeField] private float normalAttackRange = 0.5f;
+
+    [Tooltip("Jarak serangan untuk Hold Attack")]
+    [SerializeField] private float holdAttackRange = 0.8f;
 
     void Awake()
     {
@@ -46,6 +55,7 @@ public class PlayerCombat : CharacterStats
 
     void Update()
     {
+
         if (currentHealth <= 0) return;
 
         if (Time.time >= nextAttackTime)
@@ -60,6 +70,7 @@ public class PlayerCombat : CharacterStats
                 HoldAttack();
             }
         }
+       
     }
 
     public override void TakeDamage(int damage)
@@ -103,17 +114,16 @@ public class PlayerCombat : CharacterStats
         isInvincible = false;
     }
 
-    private IEnumerator DamageEnemyAfterDelay(Collider2D enemy)
-{
-    yield return new WaitForSeconds(damageDelay);
-
-    CharacterStats stats = enemy.GetComponent<CharacterStats>();
-    if (stats != null)
+    private IEnumerator DamageEnemyAfterDelay(Collider2D enemy, int damage, float delay)
     {
-        stats.TakeDamage(normalAttackDamage);
-    }
-}
+        yield return new WaitForSeconds(delay);
 
+        CharacterStats stats = enemy.GetComponent<CharacterStats>();
+        if (stats != null)
+        {
+            stats.TakeDamage(damage);
+        }
+    }
 
     void NormalAttack()
     {
@@ -131,12 +141,12 @@ public class PlayerCombat : CharacterStats
             }
         }
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, normalAttackRange, enemyLayers);
+
         foreach (Collider2D enemy in hitEnemies)
-{
-    StartCoroutine(DamageEnemyAfterDelay(enemy));
-}
+        {
+            StartCoroutine(DamageEnemyAfterDelay(enemy, normalAttackDamage, normalDamageDelay));
+        }
     }
 
     void HoldAttack()
@@ -153,10 +163,11 @@ public class PlayerCombat : CharacterStats
             }
         }
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, holdAttackRange, enemyLayers);
+
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<CharacterStats>()?.TakeDamage(holdAttackDamage);
+            StartCoroutine(DamageEnemyAfterDelay(enemy, holdAttackDamage, holdDamageDelay));
         }
     }
 
@@ -174,6 +185,11 @@ public class PlayerCombat : CharacterStats
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, normalAttackRange);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(attackPoint.position, holdAttackRange);
     }
 }

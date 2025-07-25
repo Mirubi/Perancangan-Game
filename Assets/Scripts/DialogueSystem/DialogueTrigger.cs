@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Pastikan objek ini punya Collider
 [RequireComponent(typeof(Collider2D))]
 public class DialogueTrigger : MonoBehaviour
 {
@@ -9,26 +8,46 @@ public class DialogueTrigger : MonoBehaviour
     public List<DialogueManager.DialogData> dialogs;
 
     [Header("Pengaturan Trigger")]
-    [Tooltip("Hubungkan Dialogue Manager yang ada di scene")]
     public DialogueManager dialogueManager;
-
-    [Tooltip("Centang jika dialog hanya ingin muncul sekali saja")]
     public bool playOnce = true;
 
+    [Header("UI Interaksi")]
+    public GameObject interactPopup;
+
     private bool hasPlayed = false;
+    private bool isPlayerInRange = false;
+
+    private void Update()
+    {
+        if (isPlayerInRange && !hasPlayed && Input.GetKeyDown(KeyCode.E))
+        {
+            dialogueManager.StartDialogue(dialogs);
+            if (playOnce) hasPlayed = true;
+
+            if (interactPopup != null)
+                interactPopup.SetActive(false);
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            if (playOnce && hasPlayed)
-            {
-                return;
-            }
+            isPlayerInRange = true;
 
-            dialogueManager.StartDialogue(dialogs);
-            hasPlayed = true;
-            Debug.Log("collide");
+            if (interactPopup != null)
+                interactPopup.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isPlayerInRange = false;
+
+            if (interactPopup != null)
+                interactPopup.SetActive(false);
         }
     }
 }
