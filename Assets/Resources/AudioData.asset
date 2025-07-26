@@ -25,3 +25,21 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 21c4ab875aa9e473ea4e991528cccc1f, type: 3}
   - audioName: ButtonClick
     audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: Run
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: EnemyTakeDamage
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: PlayerDead
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: PlayerDead
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: PlayerDead
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: Ambient
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: Dialog
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: EnemyAttack
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}
+  - audioName: BossAttack
+    audioClip: {fileID: 8300000, guid: dd0eb403a63a17b45a56690c156aedf1, type: 3}

@@ -74,6 +74,6 @@ public class InGameManager : MonoBehaviour
 
     public void QuitGame()
     {
-        ButtonBehavior.Instance.LoadAsyncScene("MainMenu");
+        ButtonBehavior.Instance.LoadAsyncScene("MenuUtama");
     }
 }
